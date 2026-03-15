@@ -76,5 +76,5 @@ def inference():
 
 
 if __name__ == "__main__":
-    BertModel.load_model(weight_path="./BertForSequenceClassification.pt")
+    BertModel.load_model(weight_path="../models/BertForSequenceClassification.pt")
     app.run(host="0.0.0.0", port=8000)

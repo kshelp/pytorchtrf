@@ -54,7 +54,7 @@ from fastapi import FastAPI, Depends, HTTPException
 
 
 app = FastAPI()
-vgg = VGG16Model(weight_path="./VGG16.pt")
+vgg = VGG16Model(weight_path="../models/VGG16.pt")
 
 
 class Item(BaseModel):
