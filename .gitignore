@@ -2,3 +2,5 @@
 */.ipynb_checkpoints/
 datasets/*
 models/*
+.venv/*
+.vscode/*
