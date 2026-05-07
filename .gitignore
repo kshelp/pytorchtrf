@@ -2,7 +2,9 @@
 .DS_Store
 .venv/*
 .vscode/*
+dataset_yolo_seg/*
 datasets/*
 models/*
 
 09장 객체 탐지/yolo26n-seg.pt
+09장 객체 탐지/yolo26n-seg.onnx
